@@ -39,6 +39,17 @@ Build a static web release:
 flutter build web --release --no-web-resources-cdn
 ```
 
+Build an installable Android APK:
+
+```bash
+flutter build apk --release
+# -> build/app/outputs/flutter-apk/app-release.apk (universal, ~50 MB)
+```
+
+Release signing uses `android/key.properties` and
+`android/app/sahayak-release.jks` (both git-ignored, demo-only). Without those
+files the build falls back to debug signing.
+
 ## Test it
 
 ```bash
