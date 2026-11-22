@@ -1,0 +1,35 @@
+{
+    "name": "Sahayak — ASHA copilot",
+    "short_name": "Sahayak",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#FAF7F0",
+    "theme_color": "#0F433B",
+    "description": "Voice-first, offline-capable protocol copilot for ASHA and ANM frontline health workers.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
